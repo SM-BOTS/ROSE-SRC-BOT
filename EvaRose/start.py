@@ -14,8 +14,8 @@ from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated, User
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
 from config import API_ID, API_HASH, ERROR_MESSAGE, LOGIN_SYSTEM, STRING_SESSION, CHANNEL_ID, WAITING_TIME, AUTO_DELETE_TIME, TOKEN_TIMEOUT, SHORTENER_URL, SHORTENER_API, LOG_CHANNEL
 from database.db import db
-from TechVJ.strings import HELP_TXT
-from bot import TechVJUser
+from EvaRose.strings import HELP_TXT
+from bot import EvaRose
 
 class batch_temp(object):
     IS_BATCH = {}
