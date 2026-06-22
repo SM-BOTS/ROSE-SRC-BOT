@@ -323,8 +323,8 @@ async def save(client: Client, message: Message):
                 await acc.connect()
             except: return await message.reply("**Your Login Session Expired. /logout and /login again.**")
         else:
-            if TechVJUser is None: return await client.send_message(message.chat.id, f"**String Session is not Set**", reply_to_message_id=message.id)
-            acc = TechVJUser
+            if EvaRoseUser is None: return await client.send_message(message.chat.id, f"**String Session is not Set**", reply_to_message_id=message.id)
+            acc = EvaRoseUser
 				
         batch_temp.IS_BATCH[message.from_user.id] = False
         user_uploaded_videos = []
