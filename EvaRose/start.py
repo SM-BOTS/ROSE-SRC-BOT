@@ -277,7 +277,7 @@ async def save(client: Client, message: Message):
         if EvaRoseUser is None:
             return await client.send_message(message.chat.id, "String Session is not Set", reply_to_message_id=message.id)
         try:
-            try: await TechVJUser.join_chat(text)
+            try: await EvaRoseUser.join_chat(text)
             except Exception as e: return await client.send_message(message.chat.id, f"Error : {e}", reply_to_message_id=message.id)
             await client.send_message(message.chat.id, "Chat Joined", reply_to_message_id=message.id)
         except UserAlreadyParticipant: await client.send_message(message.chat.id, "Chat already Joined", reply_to_message_id=message.id)
