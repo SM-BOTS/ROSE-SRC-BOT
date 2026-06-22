@@ -1,85 +1,56 @@
+<p align="center">
+  <img src="https://graph.org/file/71c6a6f6fcd1536ff1177.jpg" alt="Rose Src Bot Logo" width="150" height="150" style="border-radius: 50%;">
+</p>
+
+<h1 align="center">🌹 𝐑𝐎𝐒𝐄-𝐒𝐑𝐂-𝐁𝐎𝐓 🌹</h1>
 
 <p align="center">
-  <img src="https://i.ibb.co/dJ0gpJf1/photo-2025-06-16-12-07-05-7516517596376596504.jpg" alt="VJ Save Restricted Bot Logo">
+  <a href="https://github.com/SM-BOTS/ROSE-SRC-BOT/stargazers"><img src="https://img.shields.io/github/stars/SM-BOTS/ROSE-SRC-BOT?style=for-the-badge&color=ff3366&logo=github" alt="Stars"></a>
+  <a href="https://github.com/SM-BOTS/ROSE-SRC-BOT/network/members"><img src="https://img.shields.io/github/forks/SM-BOTS/ROSE-SRC-BOT?style=for-the-badge&color=00c853&logo=github" alt="Forks"></a>
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Made%20With-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Made With Python"></a>
 </p>
-<h1 align="center">
-  VJ Save Restricted Bot
-</h1>
 
-
-*A Telegram Bot, Which Can Send You Restricted Content By It's Post Link With <b>Login Feature.</b>*
-
-*Added **TG Account Protection** Security To Prevent Account From Ban Issue, Not Totally But Now TG Account Ban Chance Is Low.*
+<p align="center">
+  <b>An Advanced, Powerful and Highly Modular Telegram Group Management Bot built with Python.</b>
+</p>
 
 ---
 
-<b>Watch Video Tutorial - [Click Here](https://youtu.be/BFEvSX5vIMg)</b>
+### 🌟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
+
+*   🛡️ **Advance Security Tools:** Protects your group from spammers, scoundrels, and malicious entities automatically.
+*   🤖 **Anti-Service & Anti-Flood:** Clean up service messages (joins/leaves) and control flood attacks instantly.
+*   🚫 **Powerful Filters & Notes:** Create custom responses and save data commands effortlessly.
+*   🔐 **Captcha Verification:** Filter out automated user accounts and VoIP bot attacks upon entry.
+*   📢 **Multi-Force Subscribe:** Ensure members join your required backup or main channels before interacting.
+*   🗄️ **Database Support:** Smooth management powered by MongoDB for long-term data persistence.
 
 ---
 
-## Variables
+### 🚀 𝐃𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭 𝐌𝐞𝐭𝐡𝐨𝐝𝐬
 
-- `LOGIN_SYSTEM` : Set True or False As per your need.
-- `STRING_SESSION` : Your Tg Account Session String, if login is False then this variable is compulsory to fill. ( ⚠️ Warning - Give string session on deploy website environment variable, don't give in repo )
-- `API_HASH` : Your API Hash From [Telegram Website](https://my.telegram.org) Watch [Video Tutorial](https://youtu.be/LDtgwpI-N7M)
-- `API_ID` : Your API ID From [Telegram Website](https://my.telegram.org) Watch [Video Tutorial](https://youtu.be/LDtgwpI-N7M)
-- `BOT_TOKEN` : Your Bot Token From [BotFather](https://telegram.me/BotFather) ( ⚠️ Warning - Give Bot Token on deploy website environment variable, don't give in repo )
-- `ADMINS` : Your Admin Id For Broadcasting Message
-- `CHANNEL_ID` : Your Channel Id On Which Bot Upload Downloaded Content. ( And Make Your Bot Admin In This Channel With Full Rights )
-- `DB_URI` : Your Mongodb Database Url From [Mongodb](https://mongodb.com) Watch [Video Tutorial](https://youtu.be/DAHRmFdw99o) ( ⚠️ Warning - Give Db Url on deploy website environment variable, don't give in repo )
-- `WAITING_TIME` : Increase Time To Avoid Spamming, Floodwait and Tg Account Ban Issue.
-- `ERROR_MESSAGE` : Set True Or False, If You Want Error Message Then True Else False.
+#### 💜 Deploy on Heroku
 
----
+Easily host your bot on Heroku by clicking the button below:
 
-## Commands
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SM-BOTS/ROSE-SRC-BOT)
 
-- `/start` : Check Bot Is Working Or Not
-- `/help` : Check How To Use Bot
-- `/login` : Login Your Telegram String Session 
-- `/logout` : Logout Your Session 
-- `/cancel` : Cancel Your Any Ongoing Task
-- `/broadcast` : Broadcast Message To User (Admin Only)
+#### 💻 VPS / Local Hosting
 
----
+Follow these commands to deploy on your Linux VPS:
 
-## Usage
+```bash
+# Update and install dependencies
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install python3-pip -y
 
-__FOR PUBLIC CHATS__
+# Clone the repository
+git clone [https://github.com/SM-BOTS/ROSE-SRC-BOT](https://github.com/SM-BOTS/ROSE-SRC-BOT)
+cd ROSE-SRC-BOT
 
-_just send post/s link_
+# Install requirements
+pip3 install -r requirements.txt
 
-
-__FOR PRIVATE CHATS__
-
-_first send invite link of the chat (unnecessary if the account of string session already member of the chat)
-then send post/s link_
-
-
-__FOR BOT CHATS__
-
-_send link with '/b/', bot's username and message id, you might want to install some unofficial client (like - Plus Messenger) to get the id like below_
-
-```
-https://t.me/b/botusername/4321
-```
-
-__MULTI POSTS__
-
-_send public/private posts link as explained above with formate "from - to" to send multiple messages like below_
-
-
-```
-https://t.me/xxxx/1001-1010
-
-https://t.me/c/xxxx/101 - 120
-```
-
-_note that space in between doesn't matter_
-
----
-
-## Credits
-
-- <b>Thanks To [BipinKrish](https://github.com/bipinkrish) For Base Repo
-- Thanks To [Tech VJ](https://github.com/VJBots) For Modification.</b>
+# Configure your environment variables in config.py or .env
+# Run the bot
+python3 -m tg_bot
