@@ -274,7 +274,7 @@ async def save(client: Client, message: Message):
 
     # Handle joining via text raw string 
     if ("https://t.me/+" in text or "https://t.me/joinchat/" in text) and LOGIN_SYSTEM == False:
-        if TechVJUser is None:
+        if EvaRoseUser is None:
             return await client.send_message(message.chat.id, "String Session is not Set", reply_to_message_id=message.id)
         try:
             try: await TechVJUser.join_chat(text)
