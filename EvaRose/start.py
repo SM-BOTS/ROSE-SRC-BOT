@@ -141,8 +141,8 @@ async def send_start(client: Client, message: Message):
     buttons = [[
         InlineKeyboardButton("⚙️ Settings", callback_data="open_settings")
     ],[
-        InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_bots')
+        InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/ERSupportGroup'),
+        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/ERBotsUpdate')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
