@@ -18,7 +18,7 @@
 
 ### 🌟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
-*   🛡️ **Advance Security Tools:** Protects your group from spammers, scoundrels, and malicious entities automatically.
+*   🛡️ **Advance Security Tools:** Protects your group from spammers and malicious entities automatically.
 *   🤖 **Anti-Service & Anti-Flood:** Clean up service messages (joins/leaves) and control flood attacks instantly.
 *   🚫 **Powerful Filters & Notes:** Create custom responses and save data commands effortlessly.
 *   🔐 **Captcha Verification:** Filter out automated user accounts and VoIP bot attacks upon entry.
