@@ -141,7 +141,7 @@ class Database:
             return user.get('verification_token')
         return None
 
-db = Database(DB_URI, DB_NAME if DB_NAME else "TechVJDemoBot")
+db = Database(DB_URI, DB_NAME if DB_NAME else "EvaRoseDemoBot")
 
 ## =========================================================
 # ⚠️ Don't Remove Credit
