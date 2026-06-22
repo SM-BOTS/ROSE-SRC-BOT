@@ -1,6 +1,9 @@
-# Don't Remove Credit @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# =========================================================
+# ⚠️ Don't Remove Credit
+# 📢 Tg Channel: @ERBotsUpdate
+# 👨‍💻 Developer: @EvaRoseX
+# 💬 Support Group: @ERSupportGroup
+# =========================================================
 
 import motor.motor_asyncio
 import time
@@ -140,6 +143,9 @@ class Database:
 
 db = Database(DB_URI, DB_NAME if DB_NAME else "TechVJDemoBot")
 
-# Don't Remove Credit @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+## =========================================================
+# ⚠️ Don't Remove Credit
+# 📢 Tg Channel: @ERBotsUpdate
+# 👨‍💻 Developer: @EvaRoseX
+# 💬 Support Group: @ERSupportGroup
+# =========================================================
